@@ -16,7 +16,7 @@ const https = require('https');
 const url = require('url');
 // to get the slack hook url, go into slack admin and create a new "Incoming Webhook" integration
 // TODO
-const slack_url = 'https://hooks.slack.com/services/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'; //slack channel for notification
+const slack_url = 'https://hooks.slack.com/services/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; //slack channel for notification
 const slack_req_opts = url.parse(slack_url);
 slack_req_opts.method = 'POST';
 slack_req_opts.headers = {'Content-Type': 'application/json'};
